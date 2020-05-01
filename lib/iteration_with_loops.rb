@@ -8,7 +8,8 @@ def find_even_values(src)
   while row_counter < src.length do
     column_counter = 0
     while column_counter <src.length do
-      if src[row_counter][column_counter] % 2 == 0
+      num = src[row_counter][column_counter]
+      if num % 2 == 0
         even_numbers.push(src[row_counter][column_counter])
       end
     column_counter += 1
