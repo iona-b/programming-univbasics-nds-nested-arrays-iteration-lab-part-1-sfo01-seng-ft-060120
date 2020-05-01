@@ -13,7 +13,6 @@ require 'pry'
       num = src[row_counter][column_counter]
       if num % 2 == 0
         even_numbers.push(src[row_counter][column_counter])
-        pry.binding
       end
     column_counter += 1
     end
