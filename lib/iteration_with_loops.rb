@@ -7,7 +7,7 @@ def find_even_values(src)
   even_numbers = []
   while row_counter < src.length do
     column_counter = 0
-    while column_counter <src.[row_counter].count do
+    while column_counter < src.[row_counter].length do
       num = src[row_counter][column_counter]
       if num % 2 == 0
         even_numbers.push(src[row_counter][column_counter])
